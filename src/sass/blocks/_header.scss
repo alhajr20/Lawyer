@@ -1,0 +1,66 @@
+.header {
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    &__logo {
+        a {
+            img {
+                width: 60px;
+                height: 50px;
+            }
+        }
+    }
+
+    &__right {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &__nav {
+        margin-right: 30px;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+
+            li {
+                &:not(:last-child) {
+                    margin-right: 20px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: $text-color;
+                    transition: all .3s;
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &__feedback {
+        button {
+            border: 3px solid $main-color;
+            background: none;
+            cursor: pointer;
+            color: $main-color;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 10px 30px;
+            transition: all .3s;
+
+            &:hover {
+                background: $main-color;
+                color: #fff;
+            }
+        }
+    }
+}
