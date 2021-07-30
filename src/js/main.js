@@ -1,3 +1,5 @@
+import headerFixed from './modules/fixed';
+
 document.addEventListener('DOMContentLoaded', () => {
-    /* Something */
+    headerFixed('.header', 'header_active');
 });
