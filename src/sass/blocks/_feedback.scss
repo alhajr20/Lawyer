@@ -5,7 +5,6 @@
         padding: 30px;
         justify-content: space-between;
         margin-top: 80px;
-        margin-bottom: 50px;
         box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .10),
                     0 10px 10px -5px rgba(0, 0, 0, .04);
         background-color: #FAFAFA;
@@ -36,9 +35,17 @@
                     margin-bottom: 50px;
                     border: 2px solid $main-color;
                     font-size: 18px;
+                    color: $main-color;
+                    background: #FAFAFA;
 
                     &::placeholder {
                         color: $main-color;
+                    }
+
+                    &:focus {
+                        border: none;
+                        border-bottom: 2px solid $main-color;
+                        outline: none;
                     }
                 }
             }

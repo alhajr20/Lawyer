@@ -1,0 +1,33 @@
+.service {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, .10),
+                    0 10px 10px -5px rgba(0, 0, 0, .04);
+        background-color: #FAFAFA;
+        border-radius: 5px;
+        margin-top: 100px;
+        padding: 30px;
+        margin-bottom: 50px;
+    }
+
+    &__item {
+        text-align: center;
+
+        img {
+            padding: 10px;
+            background: $main-color;
+            border-radius: 5px;
+        }
+
+        figcaption {
+            margin-top: 20px;
+
+            p {
+                padding: 0 30px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
