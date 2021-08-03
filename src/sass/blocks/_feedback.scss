@@ -65,3 +65,24 @@
         }
     }
 }
+
+@media screen and (max-width: 750px) {
+    .feedback {
+        &__wrapper {
+            grid-template-columns: 100%;
+            row-gap: 50px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .feedback {
+        &__form {
+            form {
+                button {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}

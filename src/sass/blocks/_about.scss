@@ -28,3 +28,11 @@
         }
     }
 }
+
+@media screen and (max-width: 720px) {
+    .about {
+        &__wrapper {
+            grid-template-columns: 100%;
+        }
+    }
+}

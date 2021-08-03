@@ -60,3 +60,19 @@
         }
     }
 }
+
+@media screen and (max-width: 720px) {
+    .promo {
+        background: url('https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center/cover no-repeat;
+        padding: 90px 0;
+        color: #fff;
+        text-shadow: 0 0 10px rgba(0,0,0, .5);
+        &__image {
+            display: none;
+        }
+
+        &__info {
+            width: 100%;
+        }
+    }
+}
