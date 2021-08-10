@@ -1,4 +1,5 @@
 .modal-feedback {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -71,4 +72,8 @@
             border: 3px solid $main-color;
         }
     }
+}
+
+.modal-active {
+    display: block;
 }
